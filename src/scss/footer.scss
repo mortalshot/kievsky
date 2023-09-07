@@ -201,8 +201,10 @@
     background-color: $Darker-main;
     color: rgba($color: $White, $alpha: 0.4);
 
-    .footer__copyright {
-      color: inherit;
+    @media (min-width: $mobile) {
+      .footer__copyright {
+        color: inherit;
+      }
     }
 
     .kan-logo {

@@ -1609,10 +1609,6 @@ svg {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer_black .footer__copyright {
-  color: inherit;
-}
-
 .footer_black .kan-logo path {
   fill: #fff;
 }
@@ -5705,6 +5701,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     color: #04041d;
     opacity: 0.4;
     max-width: 100%;
+  }
+
+  .footer_black .footer__copyright {
+    color: inherit;
   }
 
   .footer_hide {
