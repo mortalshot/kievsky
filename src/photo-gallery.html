@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Фотогалерея"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="template9">
+        <div class="template9__container">
+          <div class="template9__row">
+            <aside class="template9__sidebar">
+              <nav class="template9__menu">
+                <ul>
+                  <li class="menu-item"><a href="about.html">о нас</a></li>
+                  <li class="menu-item current-menu-item"><a href="photo-gallery.html">фотогалерея</a></li>
+                  <li class="menu-item"><a href="video-gallery.html">Видеогалерея</a></li>
+                  <li class="menu-item"><a href="vacancy.html">Вакансии</a></li>
+                </ul>
+              </nav>
+            </aside>
+            <div class="template9__main">
+              <h1 class="template9__title">Фотогалерея</h1>
+
+              <div class="template9__layouts">
+                <div class="template9__layout layout6">
+                  <div class="layout6__wrapper">
+                    <div class="layout6-gallery template2__items" data-gallery="">
+                      <div data-src="@img/images/layout6-image-1.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-1.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-2.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-2.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-5.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-5.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-4.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-4.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-3.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-3.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-8.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-8.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-2.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-2.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-5.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-5.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-4.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-4.png" alt="">
+                      </div>
+                      <div data-src="@img/images/layout6-image-3.png" class="layout6-gallery__item template2__item">
+                        <img src="@img/images/layout6-image-3.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_small"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>

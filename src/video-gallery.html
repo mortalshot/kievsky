@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Видеогалерея"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="template9">
+        <div class="template9__container">
+          <div class="template9__row">
+            <aside class="template9__sidebar">
+              <nav class="template9__menu">
+                <ul>
+                  <li class="menu-item"><a href="about.html">о нас</a></li>
+                  <li class="menu-item"><a href="photo-gallery.html">Фотогалерея</a></li>
+                  <li class="menu-item current-menu-item"><a href="video-gallery.html">Видеогалерея</a></li>
+                  <li class="menu-item"><a href="vacancy.html">Вакансии</a></li>
+                </ul>
+              </nav>
+            </aside>
+            <div class="template9__main">
+              <h1 class="template9__title">Видеогалерея</h1>
+
+              <div class="template9__layouts">
+                <div class="template9__layout layout7">
+                  <div class="layout7__wrapper">
+                    <div class="layout7__items">
+                      <div class="layout7__item">
+                        <div class="layout7__item-media _paused">
+                          <video poster="@img/images/layout7-image-1.jpg">
+                            <source src="https://kievskycenter.ru/wp-content/uploads/2017/12/Gim-Gim-vers2-2.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+
+                        <div class="layout7__item-title">Дом Российской Моды</div>
+                      </div>
+                      <div class="layout7__item">
+                        <div class="layout7__item-media _paused">
+                          <video poster="@img/images/layout7-image-2.jpg">
+                            <source src="https://kievskycenter.ru/wp-content/uploads/2017/12/Gim-Gim-vers2-2.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+
+                        <div class="layout7__item-title">Gym Gym</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_small"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>

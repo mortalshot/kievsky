@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Парковка"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="template8 background_black">
+        <div class="template8__container">
+          <h1 class="template8__title">
+            Парковка <br>
+            <span style="color: #fff;">ТГК «Киевский»</span>
+          </h1>
+
+          <div class="layout2__wrapper">
+            <div class="layout2__left">
+              <div class="layout2__items">
+                <div class="layout2__item layout2-item">
+                  <div class="layout2-item__val">2</div>
+                  <div class="layout2-item__descr">уровня парковки</div>
+                </div>
+                <div class="layout2__item layout2-item">
+                  <div class="layout2-item__val">540</div>
+                  <div class="layout2-item__descr">парковочных мест</div>
+                </div>
+                <div class="layout2__item layout2-item">
+                  <div class="layout2-item__val">150₽</div>
+                  <div class="layout2-item__descr">в час</div>
+                </div>
+              </div>
+            </div>
+            <div class="layout2__right">
+              <div class="layout2__media layout2-media">
+                <div class="layout2-media__location">
+                  <img src="@img/icons/location.svg" alt="">
+                  <span>Москва, Киевская улица д.2</span>
+                </div>
+
+                <div class="layout2-media__image">
+                  <img src="@img/images/template8-image-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="template8__row">
+            <div class="template8__left">
+              <div class="template8__items">
+                <div class="template8__item">
+                  <div class="template8__icon">
+                    <img src="@img/icons/parking.svg" alt="">
+                  </div>
+                  <div class="_content">
+                    <p>Въезд на парковку со 2-го Брянского переулка</p>
+                  </div>
+                </div>
+                <div class="template8__item">
+                  <div class="template8__icon">
+                    <img src="@img/icons/phone.svg" alt="">
+                  </div>
+                  <div class="_content">
+                    <p>
+                      По всем интересующим вопросам звонить: <br>
+                      <a href="+74996446004">+7 (499) 644-60-04</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template8__right">
+              <div class="template8__text _content">
+                <p>Парковка «Киевский» это 2 уровня парковки на 540 парковочных мест в самом центре Москвы всего за 150 рублей в час. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_small footer_black"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>

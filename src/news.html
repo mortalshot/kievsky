@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"НОВОСТИ И АКЦИИ"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="template5">
+        <div class="template5__container">
+          <div class="template5__head">
+            <div class="template5__heading _content">
+              <h1>НОВОСТИ И АКЦИИ</h1>
+            </div>
+
+            <nav class="template5__navigation">
+              <ul>
+                <li class="menu-item current-menu-item"><a href="">Все</a></li>
+                <li class="menu-item"><a href="">Новости</a></li>
+                <li class="menu-item"><a href="">Акции</a></li>
+                <li class="menu-item"><a href="">Скидки</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="template5__slider swiper">
+          <div class="template5__wrapper swiper-wrapper">
+            <div class="template5__slide swiper-slide template5-slide">
+              <div class="template5-slide__media">
+                <img src="@img/images/template5-slide-image-1.png" class="template5-slide__bg" alt="">
+                <img src="@img/images/template5-slide-image-1.png" alt="">
+              </div>
+
+              <div class="template5-slide__main">
+                <div class="template5-slide__head">
+                  <div class="template5-slide__date">20.06.2023</div>
+                  <div class="template5-slide__title">Акция в магазине CYAN!</div>
+                </div>
+                <div class="template5-slide__link link link_latte">
+                  <a href="news.html">
+                    <i class="link__arrow"></i>
+                    <span class="link__text">CYAN</span>
+                  </a>
+                </div>
+                <div class="template5-slide__text _content">
+                  <p>Главная акция июня – дополнительная скидка -50% на каждое третье изделие в чеке.Количество изделий в чеке неограниченно.Порадуйте себя еще более выгодными покупками в магазине CYAN! <br>
+                    В магазине CYAN представлены коллекции брендов SCOTCH&SODA, Juicy Couture, DKNY.</p>
+                </div>
+                <div class="template5-slide__footer">
+                  <div class="template5-slide__level">2 этаж</div>
+
+                  <div class="template5-slide__map"><a href="">Показать на карте →</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="template5__slide swiper-slide template5-slide">
+              <div class="template5-slide__media">
+                <img src="@img/images/template5-slide-image-2.png" class="template5-slide__bg" alt="">
+                <img src="@img/images/template5-slide-image-2.png" alt="">
+              </div>
+
+              <div class="template5-slide__main">
+                <div class="template5-slide__head">
+                  <div class="template5-slide__date">20.06.2023</div>
+                  <div class="template5-slide__title">Специальное предложение от ЦУМ</div>
+                </div>
+                <div class="template5-slide__link link link_latte">
+                  <a href="news.html">
+                    <i class="link__arrow"></i>
+                    <span class="link__text">ЦУМ OUTLET</span>
+                  </a>
+                </div>
+                <div class="template5-slide__text _content">
+                  <p>Приветствуем начало лета приятными ценами на женские и мужские коллекции.Дополнительная скидка на вторую вещь в чеке составит -20%, а на третью -30%! Участвует весь ассортимент ЦУМ OUTLET: одежда и обувь, аксессуары и сумки.Воспользуйтесь консультацией наших стилистов, чтобы подобрать актуальные образы для прогулок, офиса или отпуска.</p>
+                </div>
+                <div class="template5-slide__footer">
+                  <div class="template5-slide__level">2 этаж</div>
+
+                  <div class="template5-slide__map"><a href="">Показать на карте →</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="template5__slide swiper-slide template5-slide">
+              <div class="template5-slide__media">
+                <img src="@img/images/template5-slide-image-3.png" class="template5-slide__bg" alt="">
+                <img src="@img/images/template5-slide-image-3.png" alt="">
+              </div>
+
+              <div class="template5-slide__main">
+                <div class="template5-slide__head">
+                  <div class="template5-slide__date">20.06.2023</div>
+                  <div class="template5-slide__title">Тренировки на свежем воздухе</div>
+                </div>
+                <div class="template5-slide__link link link_latte">
+                  <a href="news.html">
+                    <i class="link__arrow"></i>
+                    <span class="link__text">GYM GYM</span>
+                  </a>
+                </div>
+                <div class="template5-slide__text _content">
+                  <p>Совместный проект фитнес-клуба Gym-Gym и ресторана ibis — <Тренировки на свежем воздухе>
+                    Mind body — один из самых безопасных видов тренировок. Никакие другие упражнения не оказывают настолько мягкого воздействия на тело, одновременно укрепляя его.</p>
+                </div>
+                <div class="template5-slide__footer">
+                  <div class="template5-slide__level">2 этаж</div>
+
+                  <div class="template5-slide__map"><a href="">Показать на карте →</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_small"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>

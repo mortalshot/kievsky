@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Такой страницы нет"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="error">
+        <div class="error__container">
+          <div class="error__image">
+            <img src="@img/images/error.svg" alt="">
+          </div>
+
+          <div class="error__text _content">
+            <h1>Такой страницы еще нет, но уверены, она скоро появится!
+              Пора возвращаться назад.</h1>
+          </div>
+
+          <div class="error__button">
+            <a href="" class="btn btn_bg-latte">
+              <span>вернуться назад</span>
+              <i class="_icon-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_small"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>
