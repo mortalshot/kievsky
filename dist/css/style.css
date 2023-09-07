@@ -2774,6 +2774,7 @@ svg {
      object-fit: cover;
   -webkit-filter: blur(0.9375rem);
           filter: blur(0.9375rem);
+  z-index: -1;
 }
 
 .template5-slide__bg + img {

@@ -1172,6 +1172,7 @@ a.template3__item {
     height: 100%;
     object-fit: cover;
     filter: blur(rem(15));
+    z-index: -1;
 
     & + img {
       position: relative;
