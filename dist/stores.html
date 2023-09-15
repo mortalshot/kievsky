@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230907205048">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230915151301">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,7 +67,7 @@
 								<li class="menu-item"><a href="about.html">о комплексе</a></li>
 								<li class="menu-item current-menu-item"><a href="news.html">новости и акции</a></li>
 								<li class="menu-item"><a href="stores.html">магазины</a></li>
-								<li class="menu-item"><a href="scheme.html">схема комплекса</a></li>
+								<li class="menu-item"><a href="scheme-level1.html">схема комплекса</a></li>
 								<li class="menu-item"><a href="hotel.html">Гостиница</a></li>
 								<li class="menu-item"><a href="rent.html">Арендаторам</a></li>
 								<li class="menu-item"><a href="contacts.html">контакты</a></li>
@@ -105,7 +105,7 @@
 						<aside class="template6__sidebar">
 							<form action="" method="get" class="template6__search search-form">
 								<input type="text" class="search-form__input form__input" name="s" placeholder="Что вы хотите найти?">
-								<button type="submit" class="search-form__submit _icon-search"></button>
+								<i class="search-form__submit _icon-search"></i>
 							</form>
 
 							<div data-spollers="767.98,max" class="template6__spollers spollers">
@@ -183,20 +183,41 @@
 								<div class="template6__item template6-item">
 									<div class="template6-item__wrapper">
 										<div class="template6-item__head">
-											<div class="template6-item__level">3 этаж</div>
+											<div class="template6-item__level">1 этаж</div>
 										</div>
 										<div class="template6-item__body">
 											<div class="template6-item__logo">
-												<picture><source srcset="img/images/template6-item-logo-1.webp"type="image/webp"><img src="img/images/template6-item-logo-1.png" alt=""></picture>
+												<img src="img/images/template3-image-9.svg" alt="">
 											</div>
 										</div>
 										<div class="template6-item__footer">
 											<div class="template6-item__left">
-												<a href="single-shop.html" class="template6-item__name">re:Store care</a>
+												<a href="single-shop.html" class="template6-item__name">Мираторг</a>
 												<div class="template6-item__category">Услуги</div>
 											</div>
 											<div class="template6-item__right">
-												<div class="template6-item__map"><a href="" title="Показать на карте" class="_icon-complex-scheme"></a></div>
+												<div class="template6-item__map"><a href="scheme-level1.html?dataId=A1" title="Показать на карте" class="_icon-complex-scheme"></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="template6__item template6-item">
+									<div class="template6-item__wrapper">
+										<div class="template6-item__head">
+											<div class="template6-item__level">1 этаж</div>
+										</div>
+										<div class="template6-item__body">
+											<div class="template6-item__logo">
+												<picture><source srcset="img/images/template6-item-logo-3.webp"type="image/webp"><img src="img/images/template6-item-logo-3.png" alt=""></picture>
+											</div>
+										</div>
+										<div class="template6-item__footer">
+											<div class="template6-item__left">
+												<a href="single-shop.html" class="template6-item__name">Банк ВТБ</a>
+												<div class="template6-item__category">Услуги</div>
+											</div>
+											<div class="template6-item__right">
+												<div class="template6-item__map"><a href="scheme-level1.html?dataId=A28" title="Показать на карте" class="_icon-complex-scheme"></a></div>
 											</div>
 										</div>
 									</div>
@@ -217,28 +238,7 @@
 												<div class="template6-item__category">Услуги</div>
 											</div>
 											<div class="template6-item__right">
-												<div class="template6-item__map"><a href="" title="Показать на карте" class="_icon-complex-scheme"></a></div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="template6__item template6-item">
-									<div class="template6-item__wrapper">
-										<div class="template6-item__head">
-											<div class="template6-item__level">3 этаж</div>
-										</div>
-										<div class="template6-item__body">
-											<div class="template6-item__logo">
-												<picture><source srcset="img/images/template6-item-logo-3.webp"type="image/webp"><img src="img/images/template6-item-logo-3.png" alt=""></picture>
-											</div>
-										</div>
-										<div class="template6-item__footer">
-											<div class="template6-item__left">
-												<a href="single-shop.html" class="template6-item__name">Банк ВТБ</a>
-												<div class="template6-item__category">Услуги</div>
-											</div>
-											<div class="template6-item__right">
-												<div class="template6-item__map"><a href="" title="Показать на карте" class="_icon-complex-scheme"></a></div>
+												<div class="template6-item__map"><a href="scheme-level1.html?dataId=A22" title="Показать на карте" class="_icon-complex-scheme"></a></div>
 											</div>
 										</div>
 									</div>
@@ -500,19 +500,61 @@
 			</div>
 		</footer>
 	</div>
-	<!-- <div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-				Text
+	<div id="store-info" aria-hidden="true" class="popup store">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					<div class="store__main">
+						<div class="store__preview">
+							<button data-close type="button" class="popup__close _icon-close"></button>
+						</div>
+
+						<div class="store__body">
+							<div class="store__left store__column">
+								<div class="store__top">
+									<div class="store__logo" data-da=".store__head, 574.98, 0"></div>
+
+									<div class="store__schedule store-schedule">
+										<div class="store-schedule__icon _icon-schedule"></div>
+										<div class="store-schedule__body _content">
+										</div>
+									</div>
+								</div>
+
+								<div class="store__bottom">
+									<div class="store__location">
+										<div class="store__location-floor"><span></span> этаж</div>
+									</div>
+								</div>
+							</div>
+							<div class="store__right store__column">
+								<div class="store__top">
+									<div class="store__head">
+										<div class="store__head-body">
+											<div class="store__title"></div>
+											<div class="store__category"></div>
+										</div>
+									</div>
+
+									<div class="store__text"></div>
+								</div>
+								<div class="store__bottom">
+									<div class="store__link link link_latte" data-da=".store__location, 574.98, last">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="store__gallery">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div> -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js?_v=20230907205048"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js?_v=20230907205048"></script>
-	<script src="js/app.min.js?_v=20230907205048"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js?_v=20230915151301"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js?_v=20230915151301"></script>
+	<script src="js/app.min.js?_v=20230915151301"></script>
 </body>
 
 </html>

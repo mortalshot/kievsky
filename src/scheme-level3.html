@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Схема комплекса"
+})
+
+<body class="page-template-scheme">
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <section class="scheme background_black">
+        <div class="scheme__container">
+          <nav class="scheme__navigation">
+            <ul>
+              <li class="menu-item"><a href="scheme-level1.html">1 <span>этаж</span></a></li>
+              <li class="menu-item"><a href="scheme-level2.html">2 <span>этаж</span></a></li>
+              <li class="menu-item current-menu-item"><a href="scheme-level3.html">3 <span>этаж</span></a></li>
+              <li class="menu-item"><a href="scheme-level4.html">4 <span>этаж</span></a></li>
+            </ul>
+          </nav>
+
+          <div class="scheme__main">
+            <div class="scheme__row">
+              <div class="scheme__left">
+                <div class="scheme__top">
+                  <div class="scheme__floor">
+                    <select name="form[]" class="form">
+                      <option data-href="scheme-level1.html" value="1 этаж">1 этаж</option>
+                      <option data-href="scheme-level2.html" value="2 этаж">2 этаж</option>
+                      <option data-href="scheme-level3.html" value="3 этаж" selected>3 этаж</option>
+                      <option data-href="scheme-level4.html" value="4 этаж">4 этаж</option>
+                    </select>
+                  </div>
+
+                  <div class="scheme-search">
+                    <div class="search-form">
+                      <input type="text" class="scheme-search__input search-form__input form__input" placeholder="Что вы хотите найти?">
+                      <i class="search-form__submit _icon-search"></i>
+                    </div>
+
+                    <div class="scheme-search__list">
+                      <a href="scheme-level1.html?dataId=A1" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-9.svg" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">Мираторг</div>
+                          <div class="search-store__category">Услуги</div>
+                        </div>
+                        <div class="search-store__floor">1 этаж</div>
+                      </a>
+                      <a href="scheme-level1.html?dataId=A28" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-11.png" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">Банк ВТБ</div>
+                          <div class="search-store__category">Услуги</div>
+                        </div>
+                        <div class="search-store__floor">1 этаж</div>
+                      </a>
+                      <a href="scheme-level1.html?dataId=A13" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-13.png" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">Manzari Gold</div>
+                          <div class="search-store__category">Меха</div>
+                        </div>
+                        <div class="search-store__floor">1 этаж</div>
+                      </a>
+                      <a href="scheme-level2.html?dataId=B1" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-1.svg" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">ЦУМ Outlet</div>
+                          <div class="search-store__category">ЦУМ</div>
+                        </div>
+                        <div class="search-store__floor">2 этаж</div>
+                      </a>
+                      <a href="scheme-level2.html?dataId=B6" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-15.svg" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">CYAN</div>
+                          <div class="search-store__category">Услуги</div>
+                        </div>
+                        <div class="search-store__floor">2 этаж</div>
+                      </a>
+                      <a href="scheme-level3.html?dataId=C1" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-3.svg" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">Детский мир</div>
+                          <div class="search-store__category">Детский мир</div>
+                        </div>
+                        <div class="search-store__floor">3 этаж</div>
+                      </a>
+                      <a href="scheme-level4.html?dataId=D8" class="scheme-search__store search-store">
+                        <div class="search-store__logo">
+                          <img src="@img/images/template3-image-3.svg" alt="">
+                        </div>
+                        <div class="search-store__body">
+                          <div class="search-store__name">Бильярдный клуб</div>
+                          <div class="search-store__category">Бильярдный клуб</div>
+                        </div>
+                        <div class="search-store__floor">4 этаж</div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <nav class="scheme__stores">
+                    <ul class="scheme__list scheme__list_first">
+                      <li class="scheme__store">
+                        <a href="" data-id="C1" class="trade-area" data-popup="#store-info">Детский мир</a>
+
+                        <div class="info-store" data-id="C1">
+                          <div class="info-store__preview">@img/images/layout6-image-6.png</div>
+                          <div class="info-store__logo">@img/images/template3-image-9.svg</div>
+                          <div class="info-store__schedule">
+                            <p>Пн - пт с 10-00 до 21-00</p>
+                            <p>Сб с 10-00 до 20-00</p>
+                            <p>Вс - выходные</p>
+                          </div>
+                          <div class="info-store__floor">3</div>
+                          <div class="info-store__title">Детский мир</div>
+                          <div class="info-store__category">Детский мир</div>
+                          <div class="info-store__text">Очень вкусно, приходите!</div>
+                          <div class="info-store__link">https://shop.miratorg.ru/</div>
+                          <div class="store__gallery-list">
+                            <div class="store__gallery-item"><img src="@img/images/layout6-image-6.png" alt=""></div>
+                            <div class="store__gallery-item"><img src="@img/images/layout6-image-7.png" alt=""></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="scheme__right">
+                <div class="scheme__map">
+                  @@include('html/scheme-level-3.htm',{})
+                </div>
+
+                <div class="scheme__metro metro" data-da=".scheme__left, 574.98,  last">
+                  <div class="metro__caption">
+                    100 метров до м. Киевская <br>
+                    200 метров до Киевского вокзала
+                  </div>
+                  <div class="metro__logo">
+                    <img src="@img/icons/metro.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/_footer.htm',{
+    "class":"footer_hide"
+    })
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>
